@@ -1,0 +1,14 @@
+printjson(db.people.aggregate([{
+        $group: {
+            _id: null,
+            uniqueJobs: {
+                $addToSet: "$job"
+            }
+        }
+    }, 
+    {
+        $project: {
+            _id: 0
+        }
+    }
+]));

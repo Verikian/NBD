@@ -1,0 +1,33 @@
+Zapytanie 1.
+curl -i -XPUT -H "Content-Type: application/json" -d '{"title": "A Game of Thrones: The Board Game", "authors": "Christian T. Petersen", "year_released": 2011, "complexity_rating": 3.73}' http://localhost:8098/buckets/s25551/keys/GameOfThrones > wynik_1_1.txt
+curl -i -XPUT -H "Content-Type: application/json" -d '{"title": "War of the Ring: Second Edition",  "authors": ["Roberto Di Meglio", "Marco Maggi", "Francesco Nepitello"], "year_released": 2011, "complexity_rating": 4.19}' http://localhost:8098/buckets/s25551/keys/WarOfTheRing > wynik_1_2.txt
+curl -i -XPUT -H "Content-Type: application/json" -d '{"title": "Teotihuacan: City of Gods", "authors": Daniele Tascini, "year_released": 2018, "complexity_rating": 3.78}' http://localhost:8098/buckets/s25551/keys/Teotihuacan > wynik_1_3.txt
+curl -i -XPUT -H "Content-Type: application/json" -d '{"title": "Tekhenu: Obelisk of the Sun", "authors": ["Daniele Tascini", "David Turczi"], "year_released": 2020, "complexity_rating": 4.09}' http://localhost:8098/buckets/s25551/keys/Tekhenu > wynik_1_4.txt
+curl -i -XPUT -H "Content-Type: application/json" -d '{"title": "Praga Caput Regni", "authors": "Vladimir Suchy", "year_released": 2020, "complexity_rating": 3.74}' http://localhost:8098/buckets/s25551/keys/PragaCaputRegni > wynik_1_5.txt
+
+Zapytanie 2.
+curl -i -XGET http://localhost:8098/buckets/s25551/keys/WarOfTheRing > wynik_2.txt
+
+Zapytanie 3.
+curl -i -XPUT -H "Content-Type: application/json" -d '{"title": "Teotihuacan: City of Gods", "authors": Daniele Tascini, "publisher": "Board&Dice", "year_released": 2018, "complexity_rating": 3.78}' http://localhost:8098/buckets/s25551/keys/Teotihuacan > wynik_3.txt
+
+Zapytanie 4.
+curl -i -XPUT -H "Content-Type: application/json" -d '{"title": "Tekhenu: Obelisk of the Sun", "authors": ["Daniele Tascini", "David Turczi"], "year_released": 2020}' http://localhost:8098/buckets/s25551/keys/Tekhenu > wynik_4.txt
+
+Zapytanie 5.
+curl -i -XPUT -H "Content-Type: application/json" -d '{"title": "A Game of Thrones: The Board Game (Second Edition)", "authors": "Christian T. Petersen", "year_released": 2011, "complexity_rating": 3.73}' http://localhost:8098/buckets/s25551/keys/GameOfThrones > wynik_5.txt
+
+Zapytanie 6.
+curl -i -XDELETE http://localhost:8098/buckets/s25551/keys/PragaCaputRegni > wynik_6.txt
+
+Zapytanie 7.
+curl -i -XGET http://localhost:8098/buckets/s25551/keys/PragaCaputRegni > wynik_7.txt
+
+Zapytanie 8.
+curl -i -XPOST -H "Content-Type: application/json" -d '{"title": "Tawantinsuyu"}' -i http://localhost:8098/buckets/s25551/keys/> wynik_8.txt
+
+Zapytanie 9.
+curl -i -XGET http://localhost:8098/buckets/s25551/keys/1ge4VeJpidWfTFr4rMqufIAOBLH > wynik_9.txt
+
+Zapytanie 10.
+curl -i -XDELETE http://localhost:8098/buckets/s25551/keys/1ge4VeJpidWfTFr4rMqufIAOBLH > wynik_10.txt

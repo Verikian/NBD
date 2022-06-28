@@ -1,0 +1,25 @@
+-------------------------
+Results of the program
+-------------------------
+
+Inserting the document
+Server response: 204
+
+Retrieving the document
+Server response: 200
+Result: {"title": "Skywatcher Telescope N 200/1000 Explorer 200P EQ5", "manufacturer": "Skywatcher"}
+
+Modifying the document
+Server response: 204
+
+Retrieving the document again
+Server response: 200
+Result: {"title": "Skywatcher Telescope N 200/1000 Explorer 200P EQ5", "manufacturer": "Skywatcher", "type": "reflector", "type_of_build": "Newton", "aperture": "200", "price": 3579.00}
+
+Deleting the document
+Server response: 204
+
+Retrieving the deleted document
+Server response: 404
+Result: not found
+

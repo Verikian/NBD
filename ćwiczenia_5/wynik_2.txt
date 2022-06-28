@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvn91PzcUIpTImMfKsO+1zh2+LAA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s25551>; rel="up"
+Last-Modified: Sun, 26 Jun 2022 14:39:58 GMT
+ETag: "7UIzcb2MSI6BYfPsNHf96G"
+Date: Sun, 26 Jun 2022 14:50:15 GMT
+Content-Type: application/json
+Content-Length: 168
+
+{"title": "War of the Ring: Second Edition",  "authors": ["Roberto Di Meglio", "Marco Maggi", "Francesco Nepitello"],  "year_released": 2011, "complexity_rating": 4.19}

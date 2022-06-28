@@ -1,0 +1,371 @@
+MongoDB shell version v5.0.8
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("c6c7c09c-bf43-4ac8-9577-9020f4b85655") }
+MongoDB server version: 5.0.8
+[
+	{
+		"currency" : "BOB",
+		"sum" : 5263.3,
+		"avg" : 5263.3
+	},
+	{
+		"currency" : "MYR",
+		"sum" : 4781.12,
+		"avg" : 4781.12
+	},
+	{
+		"currency" : "RSD",
+		"sum" : 4276.56,
+		"avg" : 4276.56
+	},
+	{
+		"currency" : "EUR",
+		"sum" : 245091.47,
+		"avg" : 4901.8294
+	},
+	{
+		"currency" : "AFN",
+		"sum" : 16755.49,
+		"avg" : 5585.163333333334
+	},
+	{
+		"currency" : "ALL",
+		"sum" : 3325.48,
+		"avg" : 3325.48
+	},
+	{
+		"currency" : "VND",
+		"sum" : 36160.26,
+		"avg" : 4520.0325
+	},
+	{
+		"currency" : "EGP",
+		"sum" : 5579.3,
+		"avg" : 5579.3
+	},
+	{
+		"currency" : "ILS",
+		"sum" : 16295.49,
+		"avg" : 5431.83
+	},
+	{
+		"currency" : "GBP",
+		"sum" : 6149.19,
+		"avg" : 6149.19
+	},
+	{
+		"currency" : "ETB",
+		"sum" : 5436.11,
+		"avg" : 5436.11
+	},
+	{
+		"currency" : "NPR",
+		"sum" : 5792.26,
+		"avg" : 5792.26
+	},
+	{
+		"currency" : "NGN",
+		"sum" : 24946.23,
+		"avg" : 4157.705
+	},
+	{
+		"currency" : "CDF",
+		"sum" : 12228.8,
+		"avg" : 6114.4
+	},
+	{
+		"currency" : "LYD",
+		"sum" : 8764.99,
+		"avg" : 4382.495
+	},
+	{
+		"currency" : "TJS",
+		"sum" : 4087.71,
+		"avg" : 4087.71
+	},
+	{
+		"currency" : "NIO",
+		"sum" : 9971.28,
+		"avg" : 4985.64
+	},
+	{
+		"currency" : "THB",
+		"sum" : 23021.96,
+		"avg" : 4604.392
+	},
+	{
+		"currency" : "MKD",
+		"sum" : 3835.05,
+		"avg" : 3835.05
+	},
+	{
+		"currency" : "MWK",
+		"sum" : 3574.42,
+		"avg" : 3574.42
+	},
+	{
+		"currency" : "GTQ",
+		"sum" : 5806.3,
+		"avg" : 5806.3
+	},
+	{
+		"currency" : "UAH",
+		"sum" : 40471.840000000004,
+		"avg" : 5058.9800000000005
+	},
+	{
+		"currency" : "CLP",
+		"sum" : 21008.95,
+		"avg" : 5252.2375
+	},
+	{
+		"currency" : "HRK",
+		"sum" : 24354.82,
+		"avg" : 4870.964
+	},
+	{
+		"currency" : "PEN",
+		"sum" : 23227.35,
+		"avg" : 4645.469999999999
+	},
+	{
+		"currency" : "MGA",
+		"sum" : 14560.99,
+		"avg" : 4853.663333333333
+	},
+	{
+		"currency" : "TZS",
+		"sum" : 7052.370000000001,
+		"avg" : 3526.1850000000004
+	},
+	{
+		"currency" : "VEF",
+		"sum" : 8333.28,
+		"avg" : 4166.64
+	},
+	{
+		"currency" : "XAF",
+		"sum" : 14094.66,
+		"avg" : 4698.22
+	},
+	{
+		"currency" : "ARS",
+		"sum" : 23242,
+		"avg" : 4648.4
+	},
+	{
+		"currency" : "DOP",
+		"sum" : 20674.739999999998,
+		"avg" : 5168.6849999999995
+	},
+	{
+		"currency" : "MXN",
+		"sum" : 50229,
+		"avg" : 5022.9
+	},
+	{
+		"currency" : "CAD",
+		"sum" : 58375.6,
+		"avg" : 5306.872727272727
+	},
+	{
+		"currency" : "BWP",
+		"sum" : 4076.29,
+		"avg" : 4076.29
+	},
+	{
+		"currency" : "SRD",
+		"sum" : 5286.68,
+		"avg" : 5286.68
+	},
+	{
+		"currency" : "RWF",
+		"sum" : 4632.88,
+		"avg" : 4632.88
+	},
+	{
+		"currency" : "MAD",
+		"sum" : 3818.85,
+		"avg" : 3818.85
+	},
+	{
+		"currency" : "IQD",
+		"sum" : 4269.39,
+		"avg" : 4269.39
+	},
+	{
+		"currency" : "ZWL",
+		"sum" : 5792.17,
+		"avg" : 5792.17
+	},
+	{
+		"currency" : "ISK",
+		"sum" : 4316.41,
+		"avg" : 4316.41
+	},
+	{
+		"currency" : "ZMW",
+		"sum" : 5569.56,
+		"avg" : 5569.56
+	},
+	{
+		"currency" : "JPY",
+		"sum" : 60944.74,
+		"avg" : 5078.7283333333335
+	},
+	{
+		"currency" : "PLN",
+		"sum" : 90770.78,
+		"avg" : 5042.821111111111
+	},
+	{
+		"currency" : "PHP",
+		"sum" : 118606.28,
+		"avg" : 4941.928333333333
+	},
+	{
+		"currency" : "USD",
+		"sum" : 80650.7,
+		"avg" : 5040.66875
+	},
+	{
+		"currency" : "XPF",
+		"sum" : 4759.07,
+		"avg" : 4759.07
+	},
+	{
+		"currency" : "KYD",
+		"sum" : 3760.89,
+		"avg" : 3760.89
+	},
+	{
+		"currency" : "PKR",
+		"sum" : 18938,
+		"avg" : 4734.5
+	},
+	{
+		"currency" : "ZAR",
+		"sum" : 11790.92,
+		"avg" : 3930.306666666667
+	},
+	{
+		"currency" : "CNY",
+		"sum" : 470700.38,
+		"avg" : 4954.740842105263
+	},
+	{
+		"currency" : "MNT",
+		"sum" : 21715.61,
+		"avg" : 5428.9025
+	},
+	{
+		"currency" : "COP",
+		"sum" : 19746.73,
+		"avg" : 4936.6825
+	},
+	{
+		"currency" : "KRW",
+		"sum" : 13379.82,
+		"avg" : 6689.91
+	},
+	{
+		"currency" : "NOK",
+		"sum" : 4773.66,
+		"avg" : 4773.66
+	},
+	{
+		"currency" : "VUV",
+		"sum" : 6418.27,
+		"avg" : 6418.27
+	},
+	{
+		"currency" : "PYG",
+		"sum" : 4874.69,
+		"avg" : 4874.69
+	},
+	{
+		"currency" : "NZD",
+		"sum" : 5328.46,
+		"avg" : 5328.46
+	},
+	{
+		"currency" : "UZS",
+		"sum" : 3573.03,
+		"avg" : 3573.03
+	},
+	{
+		"currency" : "HNL",
+		"sum" : 16514.59,
+		"avg" : 5504.863333333334
+	},
+	{
+		"currency" : "BGN",
+		"sum" : 21200.88,
+		"avg" : 5300.22
+	},
+	{
+		"currency" : "RUB",
+		"sum" : 119749.15,
+		"avg" : 4989.547916666666
+	},
+	{
+		"currency" : "SEK",
+		"sum" : 70840.19,
+		"avg" : 5060.013571428572
+	},
+	{
+		"currency" : "KZT",
+		"sum" : 3788.95,
+		"avg" : 3788.95
+	},
+	{
+		"currency" : "CZK",
+		"sum" : 37156.42,
+		"avg" : 4644.5525
+	},
+	{
+		"currency" : "BRL",
+		"sum" : 49632.020000000004,
+		"avg" : 4512.001818181819
+	},
+	{
+		"currency" : "CUP",
+		"sum" : 15017.34,
+		"avg" : 5005.78
+	},
+	{
+		"currency" : "IRR",
+		"sum" : 26504.239999999998,
+		"avg" : 4417.373333333333
+	},
+	{
+		"currency" : "XOF",
+		"sum" : 17882.05,
+		"avg" : 5960.683333333333
+	},
+	{
+		"currency" : "AMD",
+		"sum" : 24609.33,
+		"avg" : 4921.866
+	},
+	{
+		"currency" : "YER",
+		"sum" : 13712.5,
+		"avg" : 4570.833333333333
+	},
+	{
+		"currency" : "IDR",
+		"sum" : 323922.59,
+		"avg" : 4907.918030303031
+	},
+	{
+		"currency" : "MMK",
+		"sum" : 4629.42,
+		"avg" : 4629.42
+	},
+	{
+		"currency" : "BYR",
+		"sum" : 5095.79,
+		"avg" : 5095.79
+	}
+]

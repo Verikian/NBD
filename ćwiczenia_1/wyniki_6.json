@@ -1,0 +1,33 @@
+MongoDB shell version v5.0.8
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("8dc28580-067d-4980-8ae8-f240e36402ea") }
+MongoDB server version: 5.0.8
+{ "nInserted" : 1 }
+{
+	"_id" : ObjectId("629bc39b50409456bed7c886"),
+	"sex" : "Male",
+	"first_name" : "Adam",
+	"last_name" : "Sitko",
+	"job" : "Environmental Engineer",
+	"email" : "s25551@pjwstk.edu.pl.com",
+	"location" : {
+		"city" : "Krakow",
+		"address" : {
+			"streetname" : "Mieszka I",
+			"streetnumber" : "98"
+		}
+	},
+	"description" : "dura lex, sed lex",
+	"height" : "174.00",
+	"weight" : "65.7",
+	"birth_date" : "1991-01-06T17:53:28Z",
+	"nationality" : "Poland",
+	"credit" : [
+		{
+			"type" : "visa-electron",
+			"number" : "4683130033215789",
+			"currency" : "PLN",
+			"balance" : "1313.13"
+		}
+	]
+}

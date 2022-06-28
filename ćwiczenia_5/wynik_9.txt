@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvn/15L42RCiRMY+Vof6zzh2+LAA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s25551>; rel="up"
+Last-Modified: Sun, 26 Jun 2022 15:13:03 GMT
+ETag: "5Ehdu6YY0UvwtauLQ5foq7"
+Date: Sun, 26 Jun 2022 15:14:03 GMT
+Content-Type: application/json
+Content-Length: 25
+
+{"title": "Tawantinsuyu"}

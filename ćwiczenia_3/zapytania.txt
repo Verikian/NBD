@@ -1,0 +1,65 @@
+Zapytanie 1.
+MATCH (allMovies: Movie) RETURN allMovies
+
+Zapytanie 2.
+MATCH (hugo: Person {name: "Hugo Weaving"})-[r: ACTED_IN]->(moviesHugo) RETURN hugo, moviesHugo
+
+Zapytanie 3.
+MATCH (hugo: Person {name: "Hugo Weaving"})-[r1: ACTED_IN]->(moviesHugo: Movie)<-[r2: DIRECTED]-(directors: Person) RETURN directors
+
+Zapytanie 4.
+MATCH (hugo: Person {name: "Hugo Weaving"})-[r1: ACTED_IN]->(moviesHugo: Movie)<-[r2: ACTED_IN]-(actorsWithHugo: Person) RETURN actorsWithHugo
+
+Zapytanie 5.
+MATCH (matrixMovie: Movie {title: "The Matrix"})<-[r1: ACTED_IN]-(actors: Person)-[r2: ACTED_IN]->(movies: Movie) RETURN movies
+
+Zapytanie 6.
+MATCH (actor: Person)-[r: ACTED_IN]->(movies: Movie)
+WITH actor, COUNT(movies) AS moviesCounter
+ORDER BY moviesCounter DESC
+RETURN actor.name, moviesCounter
+
+Przedstawienie w postaci graficznej:
+MATCH (actor: Person)-[r: ACTED_IN]->(movies: Movie)
+WITH actor, COUNT(movies) AS moviesCounter
+RETURN actor, moviesCounter
+
+Zapytanie 7.
+MATCH (people: Person)-[r1: DIRECTED]->(movies: Movie)<-[r2: WROTE]-(people: Person)
+RETURN people.name, movies.title
+
+Przedstawienie w postaci graficznej:
+MATCH (people: Person)-[r1: DIRECTED]->(movies: Movie)<-[r2: WROTE]-(people: Person)
+RETURN people, movies
+
+Zapytanie 8.
+MATCH (actor1: Person {name: "Hugo Weaving"})-[:ACTED_IN]->(movies: Movie)<-[:ACTED_IN]-(actor2: Person {name: "Keanu Reeves"})
+RETURN movies.title
+
+Przedstawienie w postaci graficznej:
+MATCH (actor1: Person {name: "Hugo Weaving"})-[:ACTED_IN]->(movies: Movie)<-[:ACTED_IN]-(actor2: Person {name: "Keanu Reeves"})
+RETURN movies
+
+Zapytanie 9.
+CREATE (CaptainAmerica:Movie {title:'Captain America: The First Avenger', released:2011, tagline:'When patriots become heroes'})
+CREATE (ChrisE:Person {name:'Chris Evans', born:1981})
+CREATE (HayleyA:Person {name:'Hayley Atwell', born:1982})
+CREATE (SebastianS:Person {name:'Sebastian Stan', born:1982})
+CREATE (DominicC:Person {name:'Dominic Cooper', born:1978})
+CREATE (JoeJ:Person {name:'Joe Johnston', born:1950})
+CREATE (ChristopherM:Person {name:'Christopher Markus', born:1970})
+CREATE (SpethenMF:Person {name:'Stephen McFeely', born:1970})
+CREATE
+(ChrisE)-[:ACTED_IN {roles:['Captain America', 'Steve Rogers']}]->(CaptainAmerica),
+(HayleyA)-[:ACTED_IN {roles:['Peggy Carter']}]->(CaptainAmerica),
+(SebastianS)-[:ACTED_IN {roles:['James Buchanan Barnes']}]->(CaptainAmerica),
+(DominicC)-[:ACTED_IN {roles:['Howard Stark']}]->(CaptainAmerica),
+(JoeJ)-[:DIRECTED]->(CaptainAmerica),
+(ChristopherM)-[:WROTE]->(CaptainAmerica),
+(SpethenMF)-[:WROTE]->(CaptainAmerica)
+
+MATCH (hugo:Person {name:'Hugo Weaving'}), (movie:Movie {title:'Captain America: The First Avenger'})
+CREATE (hugo)-[:ACTED_IN {roles:['Red Skull', 'Johann Schmidt']}]->(movie)
+
+MATCH (people:Person)-[r:ACTED_IN|WROTE|DIRECTED]->(movie:Movie {title: 'Captain America: The First Avenger'}) 
+RETURN people, r, movie
