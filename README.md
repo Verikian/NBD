@@ -12,7 +12,7 @@ Pliki `.js` zawierają zapytania do bazy, natomiast pliki `.json` zawierają wyn
 ### Ćwiczenia 2 - MongoDB (Map-Reduce, agregacje)
 
 Zadania z wyszukiwania informacji w bazie przy wykorzystaniu operacji **map-reduce** oraz frameworku do **agregacji** w MongoDB.
-Pliki `.js` zawierają zapytania do bazy w dwóch wersjach: map-reduce (MR) i agregacja (A), natomiast pliki `.json` zawierają wyniki odpwoiednich zapytań (osobno dla każdej z wersji).
+Pliki `.js` zawierają zapytania do bazy w dwóch wersjach: map-reduce (MR) i agregacja (A), natomiast pliki `.json` zawierają wyniki odpowiednich zapytań (osobno dla każdej z wersji).
 Schemat plików: `zapytanie_X_MR.js` `zapytanie_X_A.js` `wyniki_X_MR.json` `wyniki_X_A.json`, gdzie X oznacza numer zadania.
 
 ### Ćwiczenia 3 - Neo4J
