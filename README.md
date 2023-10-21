@@ -32,7 +32,7 @@ Schemat plików: `wynikiX.json` `wynikiX.svg`, gdzie X oznacza numer zadania.
 Zadania z podstawowych zapytań w Riak. Polecenia znajdują się w pliku tekstowym `zapytania.txt` zawierającym ponumerowane polecenia curl. 
 Wyniki zawierające odpowiedzi z serwera zapisano w plikach `.txt` zgodnie ze schematem `wynik_X.txt`, gdzie X oznacza numer zadania.
 
-### Ćwiczenia 6 - Riak
+### Ćwiczenia 6 - Riak c.d.
 
 Zadanie polegające na zapisaniu programu, który wrzuca do bazy dokument, pobiera go i wypisuje, modyfikuje go, następnie pobiera go i wypisuje, a na końcu usuwa go i próbuje pobrać z bazy.
 Kod źródłowy programu napisano w języku **Python** i zapisano w pliku `program.py`, natomiast w pliku `komunikaty.txt` umieszczono wyniki działania programu.
